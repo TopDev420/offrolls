@@ -1,0 +1,198 @@
+ .password-actionz {
+        position: relative;
+  }
+  .password-actionz .btn-password-actionz {
+        position: absolute;
+        top: 20%;
+        right: 4%;
+        margin: auto;
+        font-size: 12px;
+        width: 1.6rem;
+        color: #495057;
+        z-index: 9;
+  }
+
+  .access-form .shortcut-login .buttonsz a {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 0;
+    display: block;
+    padding: 14px 30px;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .login-body .linebar, .registration-body .linebar {
+    position: relative;
+    margin: auto;
+    text-align: center;
+  }
+
+  .login-body .orbar p, .registration-body .orbar p {
+    padding: 1rem;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    background-color: #eaeaea;
+    text-align: center;
+    margin: auto;
+  }
+
+  .login-body .linebar:before, .registration-body .linebar:before {
+    content: '';
+    height: 2px;
+    position: absolute;
+    top: 24px;
+    left: 0;
+    right: 60%;
+    margin: auto;
+    background-color: #eaeaea;
+  }
+  .login-body .linebar:after, .registration-body .linebar:after {
+    content: '';
+    height: 2px;
+    position: absolute;
+    top: 24px;
+    left: 60%;
+    right: 0;
+    margin: auto;
+    background-color: #eaeaea;
+  }
+  .access-form .shortcut-login .buttonsz a i {
+    margin-right: 7px;
+  }
+
+  .access-form .more-option.terms a {
+    text-decoration: underline;
+    color: #007bff;
+  }
+
+
+  .signin-page .card .card-body {
+    padding: 1rem 2.5rem;
+    min-height: 20rem;
+  }
+
+  #signup-card .card, #login-card .card {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0,0,0,.12);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.12);
+  }
+
+  #login-card .card {
+    background-image: linear-gradient(to right, #ffffff, rgb(0, 175, 160, 0.05));
+  }
+
+  #login-card {
+    /*display: none;*/
+    padding: 1rem;
+    position: relative;
+  }
+
+  #login-card .access-form .form-header {
+    background-color: transparent;
+  }
+
+  #login-card .access-form .form-group .form-control {
+    background-color: transparent;
+  }
+
+  #login-card .login-body {
+    padding: 1rem;
+  }
+
+
+  .signin-card .account-page-link {
+    color: #246df8 !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    border-radius: 3px;
+  }
+
+
+  .form-controls-block .error {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 85%;
+    color: rgb(220, 53, 69);
+  }
+
+  .access-form .shortcut-login .buttonsz a i {
+    margin-right: 7px;
+  }
+
+  .access-form .more-option.terms a {
+    text-decoration: underline;
+    color: #007bff;
+  }
+
+
+  .signup-page .card .card-body {
+    padding: 1.5rem;
+    min-height: 20rem;
+  }
+
+
+  .signup-card h5 {
+    font-weight: 300;
+  }
+
+  .signup-card .card, #registration-card .card {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0,0,0,.12);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.12);
+  }
+
+  #registration-card .card {
+    background-image: linear-gradient(to right, #ffffff, rgb(0, 175, 160, 0.05));
+  }
+
+  #registration-card {
+    display: none;
+    padding: 1rem;
+    position: relative;
+  }
+
+  #registration-card .access-form .form-header {
+    background-color: transparent;
+  }
+
+  #registration-card .access-form .form-group .form-control {
+    background-color: transparent;
+  }
+
+  #registration-card .registration-body {
+    padding: 1rem;
+  }
+
+  /*.registration-body .card-inners {
+    padding: 1rem;
+  }*/
+
+  #freelancer-registration-card,
+  #candidate-registration-card,
+  #company-registration-card {
+    display:none;
+  }
+
+  .signup-card .account-page-link {
+    color: #246df8 !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    border-radius: 3px;
+  }
+
+  .shortcut-login a.google {
+    background-color: #fff;
+    color: #101725;
+  }
+
+  .shortcut-login a.linkedin {
+    background-color: #0073b1;
+    color: #fff !important;
+  }
+

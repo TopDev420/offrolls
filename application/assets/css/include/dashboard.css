@@ -1,0 +1,199 @@
+.job--title--text {
+    font-size: 2rem;
+    color: #285C7F;
+}
+
+.showmore-button {
+    cursor: pointer;
+    display: inline-block;
+    color: #246df8;
+}
+
+.clamp-para-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.clamp-para-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card, .card-body {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "\f101";
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+}
+
+.jy-card .box .img {
+    width:120px;
+    height:120px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+.jy-card .box .img img {
+    width:100%;
+    height:100%;
+}
+.jy-card .box h2 {
+    font-size:20px;
+    color:#262626;
+    margin:20px auto;
+}
+.jy-card .box h2 span {
+    font-size:14px;
+    background:#285C7F;
+    color:white;
+    display:inline-block;
+    padding:4px 10px;
+    /*border-radius:15px;*/
+}
+.jy-card .box p {
+    color:#262626;
+}
+.jy-card .box h2 span {
+    font-size:14px;
+    background:#285C7F;
+    color:white;
+    display:inline-block;
+    padding:4px 10px;
+    /*border-radius:15px;*/
+}
+.jy-card .box a {
+    font-size:14px;
+    background:white;
+    color:#285c7f;
+    display:inline-block;
+    padding:4px 10px;
+    text-decoration: underline;
+    /*border-radius:15px;*/
+}
+.jy-card .box p {
+    color:#262626;
+}
+.jy-card .box span {
+    display:inline-flex;
+}
+.jy-card .box ul {
+    margin:0;
+    padding:0;
+}
+.jy-card .box ul li {
+    list-style:none;
+    float:left;
+}
+.jy-card .box ul li a {
+    display:block;
+    color:#aaa;
+    margin:0 10px;
+    font-size:20px;
+    transition:0.5s;
+    text-align:center;
+}
+.jy-card .box ul li:hover a {
+    color:#e91e63;
+    transform:rotateY(360deg);
+}
+.jy-card.card .card-header {
+    padding: 1.2rem 1.2rem;
+    /*border-bottom: 2px solid rgba(74, 74, 74, 0.4);*/
+    background: #ecf5f6;
+}
+.jy-card.card .card-body {
+    padding: 1.25rem;
+}
+
+.jy-card .nav-tabs .nav-link {
+    font-size: 1.6rem;
+    border: 0;
+    color: #6f7484;
+    position: relative;
+    padding: 15px 45px;
+    font-weight: 500;
+}
+.jy-card .nav-tabs .nav-item.show .nav-link, .jy-card .nav-tabs .nav-link.active {
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    color: #246df8;
+}
+.jy-card .manage-job-container td {
+    padding: 10px;
+    border-bottom: 0;
+}
+
+.jy-card.card .card-header h4 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.jy-card.card .card-header svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    color: #aaa;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid transparent; 
+}
+
+.dashboard-section .info-header h4 {
+    font-size: 1.8rem;
+}
+
+.candidate-container .user-info .thumb {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.candidate-container .media .user-body {
+    padding: 0 2rem;
+}
+
+.user-actionsz .ub-action svg, .dashboard-content-wrapper svg {
+    /*color: #246df8;*/
+    width: 15px;
+    height: 15px;
+}
+
+.candidate-container .bootstrap-select>.dropdown-toggle {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: rgba(36, 109, 248, 0.3);
+}
+.candidate-container .bootstrap-select>.dropdown-toggle::after {
+    right: 6px;
+}
+
+.candidate-container .user-actionsz .btn-remove {
+    border-radius: 0;
+    padding: 5.5px 18px;
+}
+.dashboard-content-wrapper p.txt-view {
+    margin: 0 0 0.6rem;
+    font-size: 1.4rem;
+}
+.dashboard-content-wrapper .txt-view span {
+    color: #212529;
+}
+.dashboard-content-wrapper .languages-section .fa-check-circle {
+    color: var(--green);
+}
+.dashboard-content-wrapper .languages-section .fa-times-circle {
+    color: var(--red);
+}

@@ -1,0 +1,77 @@
+.information.no-bg-img, .job-filter-wrapper.no-bg-img {
+    background-image: none;
+}
+
+.job-filter-wrapper, #candidates-content-area .candidates-card {
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.03);
+}
+#candidates-content-area .candidates-card-body {
+    padding: 2.5rem;
+}
+
+.candidates-list .action .button-default {
+    margin-right: 0.5rem;
+}
+
+.candidates-list .title, .candidates-list .action {
+    margin-bottom: 2rem;
+}
+
+#candidates-card-body .candidates-list {
+    position: relative;
+}
+
+#candidates-card-body .candidates-list .overlay-actions {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.03);
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.03);
+    text-align: right;
+    z-index: 9;
+}
+
+#candidates-card-body .candidates-list:hover .overlay-actions {
+    display: block;
+}
+.info-content .info-inner {
+    padding: 0;
+}
+.info-content .info-inner .txt-view span {
+    color: var(-css-secondary-color);
+}
+.info-content .info-inner .txt-view, .candidates-list p.txt-view {
+    margin: 0 0 0.6rem;
+    font-size: 1.4rem;
+}
+.info-content .info-inner svg {
+    width; 15px;
+    height: 15px;
+}
+
+.rate-content svg {
+    width: 15px;
+    height: 15px;
+    color: #6f7484;
+}
+
+.candidates-list .user-info {
+    margin-left: 2rem;
+}
+.candidates-list .bootstrap-select>.dropdown-toggle {
+    border: 1px solid #dee2e6;
+    /*background: rgba(36, 109, 248, 0.3);*/
+}
+.candidates-list .bootstrap-select>.dropdown-toggle::after {
+    right: 6px;
+}
+#candidate-contentz {
+    background-color: transparent !important;
+}
+.candidates-list .card-footer .btn-remove {
+    border-radius: 0;
+    padding: 5.5px 18px;
+}
